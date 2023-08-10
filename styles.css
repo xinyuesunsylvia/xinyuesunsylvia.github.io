@@ -114,3 +114,16 @@ a:hover {
 .indented-list {
   padding-left: 30px; /* Adjust the value as needed for your design */
 }
+.paccar-mp4 {
+  width: 400px;
+  height: 350px;
+  border-radius: 5px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  float: left;
+  display: block;
+  object-fit: cover;
+  box-shadow: 8px 8px 8px rgba(10, 10, 10, 0.2);
+}
