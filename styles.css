@@ -31,6 +31,10 @@ main {
 
 .about-me {
   margin-right: 100px;
+  margin-top: 20px;
+}
+.about-me-title {
+  margin-top: 30px;
 }
 
 section#projects {
@@ -38,16 +42,29 @@ section#projects {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .project {
-  flex: 0 0 calc(33.33% - 20px);
-  background-color: #ffffff;
+  /* flex: 0 0 calc(33.33% - 20px); */
+  /* background-color: #ffffff; */
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  margin-top: 0;
+  /* margin-top: 30px; */
+  width: 700px;
 }
 
+.description2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 1020px;
+}
 a {
   color: #0077cc;
   text-decoration: none;
@@ -57,11 +74,27 @@ a:hover {
   text-decoration: underline;
 }
 
+.project-content {
+  display: flex;
+  align-items: center;
+}
+
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin-left: 20px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  float: left;
+  display: block;
+  object-fit: cover;
+}
+
+.project1 {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   float: left;
@@ -73,4 +106,7 @@ a:hover {
   content: "";
   display: table;
   clear: both;
+}
+.indented-list {
+  padding-left: 30px; /* Adjust the value as needed for your design */
 }
