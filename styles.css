@@ -90,8 +90,18 @@ a:hover {
   display: block;
   object-fit: cover;
 }
-
 .project1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  float: left;
+  display: block;
+  object-fit: cover;
+}
+/* .project1 {
   width: 200px;
   height: 200px;
   margin-top: 20px;
@@ -100,7 +110,7 @@ a:hover {
   float: left;
   display: block;
   object-fit: cover;
-}
+} */
 
 .clearfix::after {
   content: "";
